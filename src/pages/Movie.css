@@ -1,0 +1,64 @@
+/* Define o estilo do elemento com a classe "movie-page" */
+.movie-page {
+  color: #fff; /* Define a cor do texto como branco */
+  display: grid; /* Define o display como grid */
+  flex-direction: column; /* Define a direção do grid como coluna */
+  max-width: 600px; /* Define a largura máxima do elemento */
+  margin: 2rem auto; /* Adiciona margem ao elemento */
+}
+
+/* Define o estilo do elemento SVG dentro do elemento com a classe "movie-page" */
+.movie-page svg {
+  font-size: 1.5rem; /* Define o tamanho da fonte do texto como 1.5rem */
+  color: #fff; /* Define a cor do texto como branco */
+}
+
+/* Define o estilo do elemento com a classe "movie-card" dentro do elemento com a classe "movie-page" */
+.movie-page .movie-card {
+  text-align: center; /* Centraliza o texto dentro do elemento */
+}
+
+/* Define o estilo do elemento img, h2 e p dentro do elemento com a classe "movie-card" dentro do elemento com a classe "movie-page" */
+.movie-page .movie-card img,
+.movie-page .movie-card h2,
+.movie-page .movie-card p {
+  margin-bottom: 1rem; /* Adiciona margem inferior de 1rem */
+}
+
+/* Define o estilo do elemento h2 dentro do elemento com a classe "movie-card" dentro do elemento com a classe "movie-page" */
+.movie-page .movie-card h2 {
+  font-size: 2rem; /* Define o tamanho da fonte do texto como 2rem */
+}
+
+/* Define o estilo do elemento p dentro do elemento com a classe "movie-card" dentro do elemento com a classe "movie-page" */
+.movie-page .movie-card p {
+  display: flex; /* Define o display como flex */
+  align-items: center; /* Alinha os itens do flexbox no centro do eixo cruzado */
+  justify-content: center; /* Centraliza o conteúdo do flexbox */
+  gap: 0.4rem; /* Adiciona um espaçamento de 0.4rem entre os itens do flexbox */
+}
+
+/* Define o estilo do elemento com a classe "tagline" dentro do elemento com a classe "movie-page" */
+.tagline {
+  text-align: center; /* Centraliza o texto dentro do elemento */
+  font-size: 1.3rem; /* Define o tamanho da fonte do texto como 1.3rem */
+  margin-bottom: 2rem; /* Adiciona margem inferior de 2rem */
+}
+
+/* Define o estilo do elemento com a classe "info" dentro do elemento com a classe "movie-page" */
+.info {
+  margin-bottom: 1.5rem; /* Adiciona margem inferior de 1.5rem */
+}
+
+/* Define o estilo do elemento h3 dentro do elemento com a classe "info" dentro do elemento com a classe "movie-page" */
+.info h3 {
+  margin-bottom: 1rem; /* Adiciona margem inferior de 1rem */
+  display: flex; /* Define o display como flex */
+  align-items: center; /* Alinha os itens do flexbox no centro do eixo cruzado */
+  gap: 0.5rem; /* Adiciona um espaçamento de 0.5rem entre os itens do flexbox */
+}
+
+/* Define o estilo do elemento p dentro do elemento com a classe "description" dentro do elemento com a classe "movie-page" */
+.description p {
+  line-height: 1.4rem; /* Define a altura da linha do texto como 1.4rem */
+}

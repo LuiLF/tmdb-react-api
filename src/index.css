@@ -1,0 +1,20 @@
+* { /* Aplica as propriedades abaixo a todos os elementos da página */
+  font-family: Helvetica; /* Define a fonte como Helvetica */
+  margin: 0; /* Remove o espaçamento padrão entre os elementos */
+  padding: 0; /* Remove o espaçamento padrão dentro dos elementos */
+  box-sizing: border-box; /* Inclui o preenchimento e a borda no cálculo da largura e altura dos elementos */
+}
+
+body { /* Aplica as propriedades abaixo ao elemento body */
+  background-color: #000; /* Define a cor de fundo como preto */
+}
+
+a { /* Aplica as propriedades abaixo aos elementos de âncora (links) */
+  text-decoration: none; /* Remove a sublinhagem padrão */
+  color: #fff; /* Define a cor do texto como branco */
+  transition: 0.5s; /* Adiciona uma transição suave de 0,5 segundos ao alterar a cor do texto */
+}
+
+a:hover { /* Aplica as propriedades abaixo ao elemento de âncora (link) quando o usuário passa o mouse sobre ele */
+  color: #ccc; /* Altera a cor do texto para um tom mais claro de cinza */
+}

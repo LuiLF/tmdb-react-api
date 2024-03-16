@@ -1,0 +1,49 @@
+/* Define o estilo do elemento com o ID "navbar" */
+#navbar {
+  display: flex; /* Define o display como flex */
+  justify-content: space-between; /* Distribui os itens do flexbox uniformemente no eixo principal */
+  align-items: center; /* Alinha os itens do flexbox no centro do eixo cruzado */
+  padding: 1rem 2rem; /* Adiciona preenchimento interno ao elemento */
+  background-color: #121212; /* Define a cor de fundo do elemento */
+}
+
+/* Define o estilo do elemento h2 dentro do elemento com o ID "navbar" */
+#navbar h2 a {
+  display: flex; /* Define o display como flex */
+  align-items: center; /* Alinha os itens do flexbox no centro do eixo cruzado */
+  gap: 0.5rem; /* Adiciona um espaçamento entre os itens do flexbox */
+}
+
+/* Define o estilo do formulário dentro do elemento com o ID "navbar" */
+#navbar form {
+  display: flex; /* Define o display como flex */
+  gap: 0.5rem; /* Adiciona um espaçamento entre os itens do flexbox */
+}
+
+/* Define o estilo do input dentro do formulário dentro do elemento com o ID "navbar" */
+#navbar input {
+  padding: 0.2rem 0.8rem; /* Adiciona preenchimento interno ao elemento */
+  border-radius: 4px; /* Arredonda as bordas do elemento */
+  border: none; /* Remove a borda do elemento */
+}
+
+/* Define o estilo do botão dentro do formulário dentro do elemento com o ID "navbar" */
+#navbar form button {
+  background-color: #fff; /* Define a cor de fundo do elemento */
+  border: 2px solid #fff; /* Define a cor eespessura da borda do elemento */
+  border-radius: 4px; /* Arredonda as bordas do elemento */
+  color: #000; /* Define a cor do texto do elemento */
+  padding: 0.3rem; /* Adiciona preenchimento interno ao elemento */
+  font-size: 1.3rem; /* Define o tamanho da fonte do texto do elemento */
+  display: flex; /* Define o display como flex */
+  align-items: center; /* Alinha os itens do flexbox no centro do eixo cruzado */
+  cursor: pointer; /* Define o cursor do mouse como um ponteiro */
+  transition: 0.4s; /* Adiciona uma transição suave de 0,4 segundos */
+}
+
+/* Define o estilo do botão quando o mouse passa por cima do botão dentro do formulário dentro do elemento com o ID "navbar" */
+#navbar form button:hover {
+  background-color: #121212; /* Define a cor de fundo do elemento */
+  border: 2px solid #fff; /* Define a cor e espessura da borda do elemento */
+  color: #fff; /* Define a cor do texto do elemento */
+}

@@ -1,0 +1,72 @@
+/* Define o estilo do elemento com a classe "title" dentro do elemento com a classe "container" */
+.container .title {
+  color: #fff; /* Define a cor do texto como branco */
+  font-size: 2.5rem; /* Define o tamanho da fonte do texto como 2.5rem */
+  text-align: center; /* Centraliza o texto dentro do elemento */
+  margin: 2rem 0 1rem; /* Adiciona margem superior e inferior de 2rem e margem lateral de 0 */
+}
+
+/* Define o estilo do elemento com a classe "query-text" dentro do elemento com a classe "title" dentro do elemento com a classe "container" */
+.title .query-text {
+  color: #fff; /* Define a cor do texto como branco */
+}
+
+/* Define o estilo do elemento com a classe "movies-container" dentro do elemento com a classe "container" */
+.movies-container {
+  display: flex; /* Define o display como flex */
+  flex-wrap: wrap; /* Permite que as linhas sejam quebradas automaticamente */
+  justify-content: space-between; /* Distribui os itens do flexbox com espaçamento entre eles */
+  padding: 2rem; /* Adiciona preenchimento interno ao elemento */
+  max-width: 1200px; /* Define a largura máxima do elemento */
+  margin: 0 auto; /* Centraliza o elemento horizontalmente */
+}
+
+/* Define o estilo do elemento div dentro do elemento com a classe "movies-container" dentro do elemento com a classe "container" */
+.movies-container div {
+  width: 30%; /* Define a largura do elemento como 30% */
+  color: #fff; /* Define a cor do texto como branco */
+  margin-bottom: 2.5rem; /* Adiciona margem inferior de 2.5rem */
+ display: flex; /* Define o display como flex */
+  flex-direction: column; /* Define a direção do flexbox como coluna */
+  justify-content: space-between; /* Distribui os itens do flexbox com espaçamento entre eles */
+  background-color: #111; /* Define a cor de fundo do elemento */
+  padding: 1rem; /* Adiciona preenchimento interno ao elemento */
+}
+
+/* Define o estilo do elemento img dentro do elemento div dentro do elemento com a classe "movies-container" dentro do elemento com a classe "container" */
+.movies-container div img {
+  max-width: 100%; /* Define a largura máxima do elemento como 100% */
+}
+
+/* Define o estilo do elemento img e p dentro do elemento div dentro do elemento com a classe "movies-container" dentro do elemento com a classe "container" */
+.movies-container div img,
+.movies-container div p {
+  margin-bottom: 1rem; /* Adiciona margem inferior de 1rem */
+}
+
+/* Define o estilo do elemento h2 dentro do elemento div dentro do elemento com a classe "movies-container" dentro do elemento com a classe "container" */
+.movies-container div h2 {
+  margin-bottom: 1.5rem; /* Adiciona margem inferior de 1.5rem */
+}
+
+/* Define o estilo do elemento svg dentro do elemento div dentro do elemento com a classe "movies-container" dentro do elemento com a classe "container" */
+.movies-container div svg {
+  color: #fff; /* Define a cor do texto como branco */
+}
+
+/* Define o estilo do elemento a dentro do elemento div dentro do elemento com a classe "movies-container" dentro do elemento com a classe "container" */
+.movies-container div a {
+  background-color: #fff; /* Define a cor de fundo do elemento como branco */
+  border: 2px solid #fff; /* Define a cor e espessura da borda do elemento */
+  border-radius: 4px; /* Arredonda as bordas do elemento */
+  color: #000; /* Define a cor do texto do elemento como preto */
+  padding: 1rem 0.5rem; /* Adiciona preenchimento interno ao elemento */
+  text-align: center; /* Centraliza o texto dentro do elemento */
+  font-weight: bold; /* Define a fonte do texto como negrito */
+}
+
+/* Define o estilo do elemento a quando o mouse passa por cima do elemento dentro do elemento div dentro do elemento com a classe "movies-container" dentro do elemento com a classe "container" */
+.movies-container div a:hover {
+  background-color: transparent; /* Define a cor de fundo do elemento como transparente */
+  color: #fff; /* Define a cor do texto do elemento como branco */
+}
